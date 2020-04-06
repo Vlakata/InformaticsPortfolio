@@ -1,0 +1,99 @@
+/* Color Scheme for reference: http://www.colorhunter.com/palette/2172706*/
+
+
+body {
+    background-color: #91f8fa;
+    padding: 0;
+    margin: 20px;
+}
+
+#content {
+    width: 800px;
+    padding: 0;
+    margin: auto;
+    background-color: #91f8fa;
+    border: 4px outset #c4c4c4;
+}
+
+#header h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: : Impact, fantasy;
+    background-image: url("../images/gradient1.jpg");
+    border: 4px inset #c4c4c4;
+}
+
+
+
+#header a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar {
+    border: 4px inset #c4c4c4;
+
+}
+#navbar td {
+    border: 4px outset #c4c4c4;
+    width: 200px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #c4c4c4;
+}
+
+#navbar td:hover {
+    background-color: #828282;
+    border: 4px inset #c4c4c4;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+#maincontent {
+    background-color: white;
+    padding: 4px;
+    border: 4px inset #c4c4c4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#maincontent h1 {
+    font-family: 'VCROSDMONO';
+}
+
+#maincontent a {
+    text-decoration: none;
+    color: #458adc;
+    border-bottom: 2px dashed #458adc;
+}
+
+#maincontent a:hover {
+    color: #3b74b9;
+    border-bottom: 2px dashed #3b74b9;
+}
+
+#maincontent p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+#portrait {
+    width: 200px;
+    float: left;
+    padding-right: 8px;
+    border: 5px, ridge, black;
+
+}
+
+#footer {
+    background-image: url("../images/gradient1.jpg");
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
